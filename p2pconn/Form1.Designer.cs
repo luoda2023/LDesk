@@ -74,22 +74,21 @@
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.ColorTranslator.FromHtml("#2563EB");
             this.label3.Location = new System.Drawing.Point(5, 62);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 15);
+            this.label3.Size = new System.Drawing.Size(86, 13);
             this.label3.TabIndex = 8;
             this.label3.Text = "对端 IP";
             // 
             // txtRemoteIP
             // 
-            this.txtRemoteIP.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtRemoteIP.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtRemoteIP.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtRemoteIP.Location = new System.Drawing.Point(117, 63);
             this.txtRemoteIP.Name = "txtRemoteIP";
-            this.txtRemoteIP.Size = new System.Drawing.Size(136, 22);
+            this.txtRemoteIP.Size = new System.Drawing.Size(136, 14);
             this.txtRemoteIP.TabIndex = 9;
             // 
             // button2
@@ -112,7 +111,7 @@
             // 
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.ColorTranslator.FromHtml("#6B7280");
-            this.label4.Location = new System.Drawing.Point(5, 115);
+            this.label4.Location = new System.Drawing.Point(5, 298);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(329, 13);
             this.label4.TabIndex = 11;
@@ -120,7 +119,7 @@
             // 
             // txtnsg
             // 
-            this.txtnsg.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtnsg.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtnsg.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtnsg.Location = new System.Drawing.Point(5, 234);
             this.txtnsg.Multiline = true;
@@ -190,12 +189,11 @@
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.ColorTranslator.FromHtml("#2563EB");
             this.label5.Location = new System.Drawing.Point(5, 13);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(80, 15);
+            this.label5.Size = new System.Drawing.Size(86, 13);
             this.label5.TabIndex = 20;
             this.label5.Text = "我的公网 IP";
             // 
@@ -284,12 +282,11 @@
             // 
             // label13
             // 
-            this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.ColorTranslator.FromHtml("#2563EB");
             this.label13.Location = new System.Drawing.Point(5, 38);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(77, 15);
+            this.label13.Size = new System.Drawing.Size(86, 13);
             this.label13.TabIndex = 23;
             this.label13.Text = "我的内网 IP";
             // 
@@ -417,7 +414,7 @@
             "1000"});
             this.dspeed.Location = new System.Drawing.Point(70, 48);
             this.dspeed.Name = "dspeed";
-            this.dspeed.Size = new System.Drawing.Size(58, 23);
+            this.dspeed.Size = new System.Drawing.Size(58, 21);
             this.dspeed.TabIndex = 9;
             this.dspeed.SelectedIndexChanged += new System.EventHandler(this.dspeed_SelectedIndexChanged);
             // 
